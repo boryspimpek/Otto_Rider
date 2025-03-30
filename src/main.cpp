@@ -37,7 +37,7 @@ int mapJoystickToSpeed(int value) {
     return 0; 
   }
   
-  int mappedSpeed = map(value, -100, 100, -255, 255); 
+  int mappedSpeed = map(value, -1000, 1000, 150, -150); 
   return mappedSpeed;
 }
 
